@@ -1,0 +1,27 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+/* Variables */
+:root{
+    --primary-color: #131211;
+    --secondary-color: #FFD506;
+    --white: #fff;
+    --p: #464646;
+}
+/* General Styles */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html, body{font-family: 'Open Sans', sans-serif; font-size: 100%;}
+img{max-width: 100%;}
+a, ul, li{text-decoration: none; list-style: none;}
+.container{max-width: 80% ; margin: 0 auto; padding: 0 30px; border: red solid 1px;}
+.row{display: flex; flex-wrap: wrap;}
+.btn-mobile{ display: none; flex-direction: column;  justify-content: space-around; width: 40px; height: 40px; padding: 5px; cursor: pointer;}
+.btn-mobile span{width: 100%; height: 2px; background: var(--white);}
+/* Header */
+.top{background: var(--primary-color); padding:5px 0}
+.top .row{justify-content: space-between; align-items: center;}
+.top .nav, .top .nav ul{display: flex; }
+.top .nav ul li a{padding: 10px; color: var(--white); font-size: .9em; transition: .3s ease-out;}
+.top .nav ul li a:hover, .top .nav .userArea a i:hover{color: var(--secondary-color);}
+.top .nav .userArea a i{font-size: 1.5em; color: var(--white); margin-left: 10px;}
+
