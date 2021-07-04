@@ -6,6 +6,8 @@ btnMenu.addEventListener('click', () =>{
     nav.classList.toggle("active");
     if(nav.classList.contains("active")){
       body.style.overflow= "hidden";
+    }else{
+      body.style.overflow= "auto";
     }
 })
 
