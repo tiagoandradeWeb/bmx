@@ -2,7 +2,7 @@
     .title img{margin-left:-30px;  width: 100px;}
 
     .container{width: 90%;}
-    .btn-mobile{display: flex;}
+    .btn-mobile{display: flex; z-index: 99999;}
     .top .nav.active + .btn-mobile span{position: relative;}
     .top .nav.active + .btn-mobile span:nth-child(1){transform: rotate(135deg); top: 7px;}
     .top .nav.active + .btn-mobile span:nth-child(2){display: none;}
